@@ -1,0 +1,113 @@
+.css-text{
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-shadow: 2px 2px 8px white, -2px -4px 4px rgb(179, 130, 97);
+  color: black;
+  font-weight: 700;
+}
+.css-quote{
+  font-size: 30px;
+}
+.profile-grid{
+  box-shadow: 3px 7px 6px rgba(17, 44, 44, 0.3);
+  width:225px;
+  border-radius: 10px;
+  transition: 0.7s;
+  margin-left: 40px;
+  background-color: azure;
+  
+}
+.saree-image, .party-image{
+  width:100%;
+  height: 200px;
+  object-fit: cover;
+}
+.party-image{
+  object-fit: fill;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 22px;
+  margin: 6px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+}
+.amount{
+  font-size: 16px;
+  color: rgb(65, 56, 56);
+  margin-bottom: 9px;
+  margin-left: 10px;
+  
+}
+.buy-button{
+  border: none;
+  background-color: rgb(29, 161, 242);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 9px;
+  font-weight: bold;
+  color: white;
+  cursor:pointer;
+  margin-left: 3px;
+  
+}
+.cart-button{
+  border:none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 5px 12px;
+  border-radius: 9px;
+  font-weight: bold;
+  color: black;
+  cursor:pointer;
+  background-color: rgb(255, 153, 0);
+}
+.buy-button:hover{
+  background-color: rgb(118, 200, 118);
+  color: black;
+  transition: 0.5s;
+
+}
+.profile-grid:hover{
+  width:240px;
+  transition: 0.7s;
+ 
+}
+.cart-button:hover{
+background-color: black;
+color:white;
+transition: 0.5s;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.discount-badge, .discount-badge1 {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  background-color: rgb(241, 123, 123);
+  border-radius: 4px;
+  color: black;
+  padding: 5px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 14px;
+  transition: 0.7s;
+  
+  
+}
+.discount-badge1{
+  background-color: aquamarine;
+}
+.discount-badge:hover, .discount-badge1:hover{
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  transition: 0.7s;
+}

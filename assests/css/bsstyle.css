@@ -1,0 +1,11 @@
+
+.breadcrumb-item+.breadcrumb-item::before{
+  content: ">>>";
+}
+
+@media all and (max-width: 480px) {
+  .mobile-block {
+    width: 100% !important;
+    display: block !important;
+  }
+}

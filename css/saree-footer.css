@@ -1,0 +1,18 @@
+.css-icon{
+  font-size: 30px;
+  color: rgb(79, 184, 123);
+  transition: 0.7s;
+}
+.footer-heading{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.footer-text{
+  font-size: 14px;
+  font-family: cursive;
+}
+.css-icon:hover{
+  font-size: 50px;
+  color: rgb(212, 212, 219);
+  transition: 0.7s;
+}

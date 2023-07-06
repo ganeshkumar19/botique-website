@@ -1,0 +1,23 @@
+.container{
+  background-color:blueviolet;
+  border-style: solid;
+  border-color: azure;
+  border-width: 2px;
+  color: white;
+}
+body{
+  background-color: blueviolet;
+}
+.padding{
+  padding: 50px;
+}
+.first-row{
+  border: 3px solid red;
+}
+.second-row{
+  border: 3px solid green;
+}
+li {
+  float: left;
+  padding-right: 3px;
+}
